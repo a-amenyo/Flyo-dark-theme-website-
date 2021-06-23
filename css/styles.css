@@ -11,7 +11,6 @@ body{
     width: 100%;
     top: 1.25rem;
     margin-bottom: 1.875rem;
-    border: 1px solid white;
 }
 .wrapper{
    width: 100%;
@@ -89,7 +88,7 @@ button{
 .features{
     /* box-model */
     margin-top: 2.575rem;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     min-height: 100vh;
     padding: 6.25rem;
     /* visual */
@@ -101,7 +100,15 @@ button{
 .feature-content{
     /* box-model */
     display: grid ;
-    grid-template-columns: .5fr .5fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 5.875rem;
     border: 1px solid white;
-    padding: 1.25rem;
+    padding: 2.25rem;
+    margin-top: 3.125rem;
+}
+.feature-content div {
+    width: 300px;
+}
+.feature-content p ,h3{
+    color: white;
 }
