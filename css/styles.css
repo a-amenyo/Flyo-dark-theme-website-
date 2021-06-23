@@ -1,0 +1,107 @@
+*{
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1b2230;
+}
+.navbar{
+    display: grid;
+    width: 100%;
+    top: 1.25rem;
+    margin-bottom: 1.875rem;
+    border: 1px solid white;
+}
+.wrapper{
+   width: 100%;
+}
+ul {
+    text-decoration: none;
+    position: absolute;
+    right: .3125rem;
+}
+li{
+    display: inline-block;
+    padding: .9375rem;
+}
+a{
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-right: .3125rem;
+    padding-right: .625rem;
+    font-size: .8125rem;
+    color: white;
+}
+h1{
+    color: white;
+    margin-left: .3125rem;
+}
+.intro{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr ;
+   height: 100vh;
+   text-align: center;
+}
+.intro-image{
+    grid-column: 2/4;
+    margin-bottom: .625rem;
+}
+.intro-message{
+    margin: auto;
+    grid-column: 2/4;
+   color: white;
+   font-size: 1.5625rem;
+   padding: .9375rem;
+   width: 45rem;
+}
+.intro-p{
+  /* box-model */
+  padding: .9375rem;
+  width: 45rem;
+  margin: auto; 
+grid-column: 2/4;
+ /* typography */
+ font-size: 16px;
+ /* visual */
+color: white;
+    
+   
+}
+.intro-button{
+    margin: auto;
+    grid-column: 2/4;
+    margin-bottom: 1.25rem;
+}
+button{
+    /* typography */
+    font-size: 15px;
+    /* box-model */
+    width: 15rem;
+    padding: .625rem;
+    /* visual */
+    background-color: #8bdae3;
+    color: white;
+    border: none;
+    border-radius: 1.5625rem;
+}
+/* features section */
+.features{
+    /* box-model */
+    margin-top: 2.575rem;
+    border: 1px solid white;
+    min-height: 100vh;
+    padding: 6.25rem;
+    /* visual */
+    background-image: url("../images/bg-curvy-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-position: -200px 200px; */
+}
+.feature-content{
+    /* box-model */
+    display: grid ;
+    grid-template-columns: .5fr .5fr;
+    border: 1px solid white;
+    padding: 1.25rem;
+}
