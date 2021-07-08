@@ -171,7 +171,7 @@ h3 {
     width: 20.75rem;
     background-color: #21293c;
     z-index: 1;
-    box-shadow: 10px 5px 5px black;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.383);
     padding: 2.5rem;
     position: relative;
 }
