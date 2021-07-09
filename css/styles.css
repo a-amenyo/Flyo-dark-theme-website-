@@ -39,6 +39,9 @@ a {
   margin-top: 1.875rem;
   margin-left: 1.875rem;
 }
+.logo:hover{
+  cursor: pointer;
+}
 h1 {
   margin-top: 1.875rem;
   margin-left: 1.875rem;
@@ -81,6 +84,9 @@ p {
   grid-column: 2/4;
   margin-bottom: 1.25rem;
 }
+button:hover{
+  cursor: pointer ;
+}
 button {
   /* typography */
   font-size: 15px;
@@ -110,8 +116,9 @@ button {
 .feature-content {
   /* box-model */
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  border: 1px solid white;
+  grid-template-columns: .5fr .5fr;
+  gap: 2.25rem;
+  /* border: 1px solid white; */
   padding: 2.25rem;
   margin-top: 3.125rem;
   /* typography */
@@ -124,10 +131,11 @@ button {
     height: 300px; */
   /* place-content: center; */
 }
-.feature-content p,
-h3 {
+.feature-content h3 {
   color: white;
+  font-size: 1.25rem;
 }
+
 .stay-productive {
   /* box-model */
   margin-left: 1.875rem;
@@ -183,9 +191,8 @@ h3 {
   font-size: 0.85rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.profile-pic {
+.profile-pic img {
   border-radius: 100%;
-  border: 1px solid white;
   width: 35px;
   height: 35px;
   margin-top: 1.5625rem;
@@ -216,7 +223,7 @@ h4 {
   background-color: #0c1524;
 
   /* box-model */
-  min-height: 50vh;
+  height: 70vh;
   padding: 7.625rem;
   position: relative;
 }
@@ -226,7 +233,7 @@ h4 {
   width: 37.75rem;
   padding: .625rem;
   position: absolute;
-  bottom: 55%;
+  bottom:65%;
   left: 50%;
   transform: translate(-50%, -50%);
 
@@ -239,6 +246,7 @@ h4 {
 }
 .easy-access-card p ,h3{
   margin-bottom: 1.25rem;
+  color: white;
 }
 input{
   /* typography */
@@ -277,6 +285,7 @@ input{
   margin-top: 1.25rem;
 }
 .outro{
+  
   display: grid;
   grid-template-columns: 2fr 1.5fr 1fr 1fr 2fr;
   column-gap: 2.625rem;
@@ -284,7 +293,8 @@ input{
 
 .location-p{
   color: white;
-  margin-left: .625rem;
+  padding: 10px;
+  /* margin-left: .625rem; */
 }
 .third-outro, .fourth-outro{
   padding: 1.25rem;
@@ -292,9 +302,16 @@ input{
 .second-outro span, .third-outro span, .fourth-outro span{
   color: white;
 }
-.fourth-outro{
+.second-outro span  {
+  margin-left: 1.25rem;
+}
+.third-outro, .fourth-outro{
   display: grid;
   justify-content: center;
+}
+.fifth-outro{
+  text-align: center;
+  padding: 1.25rem;
 }
 .fab{
   color: white;
@@ -306,6 +323,9 @@ input{
   cursor: pointer;
   text-align: center;
 }
+.fab:hover{
+  color: #8bdae3;
+}
 
 .attribution {
   /* typography */
@@ -316,4 +336,8 @@ input{
 
   /* visual */
   color: white;
+}
+footer{
+  background-color: #0c1524;
+  padding: .75rem;
 }
